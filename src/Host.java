@@ -105,13 +105,13 @@ public class Host {
         }
     }
 
-    void printHostLinkedList() {
-        Node temp = head;
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
-        }
-    }
+    // void printHostLinkedList() {     // To Print The Linked List
+    //     Node temp = head;
+    //     while (temp != null) {
+    //         System.out.println(temp.data);
+    //         temp = temp.next;
+    //     }
+    // }
 
     void HostFunctions(String username) throws Exception {
         int choice;
@@ -312,7 +312,7 @@ public class Host {
             }
             if (flag == 1) {
                 System.out.println("Airbnb Not Found");
-            }2
+            }
             
 
         } catch (InputMismatchException e) {
